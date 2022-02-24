@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+{% load static%}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'CSS/style2.css' %}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Document</title>
+    
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Favicons -->
+<link rel="apple-touch-icon" href="/docs/5.0/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="/docs/5.0/assets/img/favicons/manifest.json">
+<link rel="mask-icon" href="/docs/5.0/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
+<link rel="icon" href="/docs/5.0/assets/img/favicons/favicon.ico">
+<meta name="theme-color" content="#7952b3">
+
+
+    <!-- <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style> -->
+      <style>
+        /* .link{ */
+          /* background-color:slategrey; */
+        /* } */
+        pre{
+          color:aqua;
+        }
+      </style>
+    
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Carousel</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </header>
+      
+      <main class="link">
+      
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+Getbootstrap
+Carousel Template · Bootstrap v5.0
+<img class="bd-placeholder-img" width="100%" height="100%" src="https://media.istockphoto.com/photos/view-on-osh-the-second-largest-city-in-kyrgyzstan-picture-id899866498" aria-hidden="true" width="100%" height="100%" fill="#777"></img>
+      
+              <div class="container">
+                <div class="carousel-caption text-start">
+                  <h1>ГОРОД ОШ</h1>
+                  <pre>Населения=256 763 (2017 г.)
+Площадь: 182 км²
+Высота над уровнем моря: 963 м </pre>
+                  <p><a class="btn btn-lg btn-primary" href="https://www.centralasia-travel.com/ru/countries/kirgistan/sights/osh">Далее</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+                <img class="bd-placeholder-img" width="100%" height="100%" src="https://media.istockphoto.com/photos/view-on-osh-the-second-largest-city-in-kyrgyzstan-picture-id899866498" aria-hidden="true" width="100%" height="100%" fill="#777"></img>
+      
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>ГОРОД ОШ</h1>
+                  <pre>Населения=256 763 (2017 г.)
+Площадь: 182 км²
+Высота над уровнем моря: 963 м </pre>
+                  <p><a class="btn btn-lg btn-primary" href="https://www.centralasia-travel.com/ru/countries/kirgistan/sights/osh">Далее</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+                <img class="bd-placeholder-img" width="100%" height="100%" src="https://media.istockphoto.com/photos/view-on-osh-the-second-largest-city-in-kyrgyzstan-picture-id899866498" aria-hidden="true" width="100%" height="100%" fill="#777"></img>
+      
+              <div class="container">
+                <div class="carousel-caption text-end">
+                  <h1>ГОРОД ОШ</h1>
+                  <pre>Населения=256 763 (2017 г.)
+Площадь: 182 км²
+Высота над уровнем моря: 963 м </pre>
+                  <p><a class="btn btn-lg btn-primary" href="https://www.centralasia-travel.com/ru/countries/kirgistan/sights/osh">Далее</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!-- Marketing messaging and featurettes
+        ================================================== -->
+        <!-- Wrap the rest of the page in another container to center all the content. -->
+        <!-- <div class="container marketing"> -->
+          <!-- Three columns of text below the carousel -->
+          <!-- <div class="row">
+            <div class="col-lg-4">
+              <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="{% static 'imgpleaces/mechet.jpg' %}" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777" x="50%" y="50%" fill="#777" dy=".3em"/></img>     
+              <h2>Heading</h2>
+              <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+              <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p> -->
+            <!-- </div>/.col-lg-4 -->
+            <!-- <div class="col-lg-4">
+              <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="{% static 'imgpleaces/park.jpeg' %}" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777" x="50%" y="50%" fill="#777" dy=".3em"/></img> -->
+      
+              <!-- <h2>Heading</h2>
+Centralasia-Travel
+Город Ош. Краткая информация о южной столице Кыргызстана
+Интересная информация о городе Ош, история города, достопримечательности Оша
+<p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
+              <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p> -->
+            <!-- </div>/.col-lg-4 -->
+            <!-- <div class="col-lg-4">
+              <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="{% static 'imgpleaces/mun.jpeg' %}" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777" x="50%" y="50%" fill="#777" dy=".3em"/></img> -->
+      
+              <!-- <h2>Heading</h2>
+              <p>And lastly this, the third column of representative placeholder content.</p>
+              <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+            </div> /.col-lg-4 -->
+          <!-- </div>/.row --> 
+      
+      
+          <!-- START THE FEATURETTES -->
+      
+          <div class="link">
+          <hr class="featurette-divider">
+          <div  class="row featurette">
+            <div class="col-md-7">
+              <h2 class="featurette-heading">География</h2>
+              <p class="lead">Ош расположен на юге Киргизии в 300 км к юго-западу от Бишкека (700 км по автодороге М43). Город расположен в восточной части Ферганской долины у выхода реки Ак-Буура (Акбура) из предгорий Алайского хребта, на высоте от 870 до 1110 метров.
+
+              </p>
+            </div>
+            <div class="col-md-5">
+              <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="https://media.istockphoto.com/photos/view-on-osh-the-second-largest-city-in-kyrgyzstan-picture-id899866498" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee" x="50%" y="50%" fill="#aaa" dy=".3em"/></img>
+      
+            </div>
+          </div>
+        </div>
+          <hr class="featurette-divider">
+      
+          <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+              <h2 class="featurette-heading">Независимая Кыргызстан </h2>
+              <p class="lead">В 2000 году по указу президента Киргизии Аскара Акаева было торжественно отмечено 3000-летие Оша. С   тех пор появилась традиция 5 октября отмечать День города.
+                11 июня 2003 года Ошу присвоен статус города республиканского значения[14].
+                Во время кризиса власти в 2005 году Ош стал одним из первых городов, перешедших под контроль оппозиции.
+                Согласно закону от 3 ноября 2008 года № 238 «Об упразднении административно-территориальных единиц, находящихся на территориях городов республиканского и областного значений», в городе Ош был упразднён Жапалакский аильный округ[15].
+                Летом 2010 года после апрельской революции и ослабления центральной власти произошли столкновения между киргизами и узбеками, приведшие к многочисленным жертвам и потоку беженцев на территорию соседних областей Узбекистана[16]. Общее число разрушенных объектов составило 888, из них 718 — жилые дома.
+                Через 10 лет после принятия Закона о статусе города Ош 12 декабря 2013 года был принят новый закон № 219 «О статусе города Ош»[1</p>
+            </div>
+            <div class="col-md-5 order-md-1">
+              <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="https://media.istockphoto.com/photos/view-on-osh-the-second-largest-city-in-kyrgyzstan-picture-id899866498" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee" x="50%" y="50%" fill="#aaa" dy=".3em"/></img>
+      
+            </div>
+          </div>
+      
+          <hr class="featurette-divider">
+      
+          <div class="row featurette">
+            <div class="col-md-7">
+              <h2 class="featurette-heading">Ошский плов</h2>
+<p class="lead">Также известный как девзира плов, это местное блюдо источает невообразимые ароматы. Существует несколько версий приготовления плова по всей Центральной Азии, однако в Ошском плове используется уникальное сочетание ингредиентов и приправ. Красный рис (девзира) на медленном огне доводится до совершенного состояния готовности вместе с овощами (желтой морковью и луком), нежным мясом и особым букетом специй. Подаваемый к столу вместе с салатом «Шакарап», достаточно простым салатом из помидоров и лука, Ошский плов представляет собой центральноазиатскую кулинарную квинтэссенцию.</p>
+            </div>
+            <div class="col-md-5">
+              <img class="data:image/jpeg;base64,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" width="500" height="500" src="https://media.istockphoto.com/photos/view-on-osh-the-second-largest-city-in-kyrgyzstan-picture-id899866498" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee" x="50%" y="50%" fill="#aaa" dy=".3em"/></img>
+      
+            </div>
+          </div>
+      
+          <hr class="featurette-divider">
+      
+          <!-- /END THE FEATURETTES -->
+      
+        </div><!-- /.container -->
+      
+      
+        <!-- FOOTER -->
+        <footer class="container">
+          <p class="float-end"><a href="#">Back to top</a></p>
+          <p>&copy; 2017–2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        </footer>
+      </main>
+      
+      
+          <script src="/docs/5.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+{%load static%}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'CSS/style.css' %}">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Osh</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Hotel</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Food</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown link
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="{% static 'images/osh.jpg' %}" class="d-block w-100" alt="osh">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="{% static 'images/ss.jpg' %}" class="d-block w-100" alt="osh2">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="{% static 'images/ossh.jpg' %}" class="d-block w-100" alt="osh3">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+<div class="About_city">
+    <h2>О городе</h2>
+    <p>Ош (кирг. Ош) — город республиканского подчинения в Киргизии, административный центр Ошской области. <br>
+      Ош — второй по численности населения город Киргизии после Бишкека, крупнейший город юга страны, официально именуемый «южной столицей».</p>
+    <div class="city-info">
+      <ul>
+          <li>
+              <img src="/local/templates/sir/images/icons/city/inf1.png" alt="">
+              <span>
+Население:&nbsp;<strong>270,0 тыс чел.</strong>
+</span>
+          </li>
+          <li><img src="/local/templates/sir/images/icons/city/inf2.png" alt=""><span>Аэропортов: <strong>1</strong></span></li>
+          <li><img src="/local/templates/sir/images/icons/city/inf3.png" alt=""><span>Железнодорожных вокзалов: <strong>1</strong></span></li>
+          <li><img src="/local/templates/sir/images/icons/city/inf4.png" alt=""><span>Вузов: <strong>8</strong></span></li>
+          <li><img src="/local/templates/sir/images/icons/city/inf5.png" alt=""><span>Музеев: <strong>3</strong></span></li>
+          <li><img src="/local/templates/sir/images/icons/city/inf6.png" alt=""><span>Библиотек: <strong>15</strong></span></li>
+          <li><img src="/local/templates/sir/images/icons/city/inf7.png" alt=""><span>Парков и садов: <strong>7</strong></span></li>
+      </ul>
+  </div>
+  <h2>Культура, образование, достопримечательности</h2>
+  <ul>
+      <li>Смотровая площадка и «домик Бабура» на горе Сулайман-Тоо</li>
+      <li>Мавзолей у подножия Сулайман-Тоо</li>
+      <li>Краеведческий музей «Сулайман-Тоо» в Оше</li>
+      <li>Ошский объединённый историко-культурный музей-заповедник</li>
+      <li>Домик на восточной оконечности горы Сулайман-Тоо, был построен в XVI веке приказом Бабура. В советское время был разрушен и в перестроечные годы был восстановлен.</li>
+      <li>Мечеть Тахт-и-Сулейман</li>
+      <li>Ак-Буринская крепость (I—XII)</li>
+      <li>Государственный академический музыкально-драматический театр имени Бабура</li>
+      <li>Краеведческий музей, расположенный в пещере горы Сулайман-Тоо.</li>
+      <li>Краеведческий комплекс «Великий Шёлковый путь» с восточной стороны горы Сулайман-Тоо построенный к празднованию трёхтысячелетия города</li>
+      <li>Средневековая баня</li>
+      <li>Скала Сурот-Таш (100 наскальных рисунков I тыс. до н. э.)</li>
+    </ul>
+    <h2>Климат</h2>
+    <p>Климат — континентальный, засушливый. Средняя температура января — −2 градуса Цельсия, июля — +25/+26 градусов Цельсия. Осадков выпадает в районе 400—500 мм в год.
+      
+      </p>
+</div>
+<section class="hero-section">
+  <div class="card-grid">
+    <a class="card" href="#">
+      <div class="card__background" style="background-image: url(https://pbs.twimg.com/media/ED8uNyUXsAQMKjz.jpg)"></div>
+      <div class="card__content">
+        <p class="card__category">Osh</p>
+        <h3 class="card__heading">Достопримечательности</h3>
+      </div>
+    </a>
+    <a class="card" href="#">
+      <div class="card__background" style="background-image: url(data:image/jpeg;base64,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)"></div>
+      <div class="card__content">
+        <p class="card__category">Cinema</p>
+        <h3 class="card__heading">Развлечения</h3>
+      </div>
+    </a>
+    <a class="card" href="#">
+      <div class="card__background" style="background-image: url(https://oshfood.kg/image/468x318/8.png)"></div>
+      <div class="card__content">
+        <p class="card__category">Food</p>
+        <h3 class="card__heading">Кухня</h3>
+      </div>
+    </li>
+    <a class="card" href="#">
+      <div class="card__background" style="background-image: url(https://media-cdn.tripadvisor.com/media/photo-s/0e/a4/7a/fa/caption.jpg)"></div>
+      <div class="card__content">
+        <p class="card__category">Hotel</p>
+        <h3 class="card__heading">Отели</h3>
+      </div>
+    </a>
+  <div>
+</section>
+<div class="cards">
+  <div class="card" style="width: 18rem;">
+    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/e4/2e/cb/caption.jpg?w=1000&h=-1&s=1" class="card-img-top" alt="aa">
+    <div class="card-body">
+      <h5 class="card-title">Водопад Абшир-Ата</h5>
+      <p class="card-text">Молочный водопад Апшир-Ата с объемом воды 0,8 м3 бьет из скалы высотой более 12 метров и впадает в Апшир-Сай
+      </p>
+      <a href="#" class="btn btn-primary">Настроить маршрут</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/7a/0d/d0/caption.jpg?w=1200&h=-1&s=1" class="card-img-top" alt="Pik">
+    <div class="card-body">
+      <h5 class="card-title">Пик Ленина</h5>
+      <p class="card-text">Памиро-Алайская долина – это место одна из энергетических центров мира.
+        Познай СЕБЯ и МИР ВОКРУГ ТЕБЯ!!!!
+        </p>
+      <a href="#" class="btn btn-primary">Настроить маршрут</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/5f/21/1b/blick-richtung-kazaktar.jpg?w=1200&h=-1&s=1" class="card-img-top" alt="Alay">
+    <div class="card-body">
+      <h5 class="card-title">Алай</h5>
+      <p class="card-text">Одно из моих любимых мест в Кыргызстане - дикие, прочные, мирные, удивительные горы и.т.д.</p>
+      <a href="#" class="btn btn-primary">Настроить маршрут</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/b9/cc/0d/photo0jpg.jpg?w=1200&h=-1&s=1" class="card-img-top" alt="Алай">
+    <div class="card-body">
+      <h5 class="card-title">Kyrgyz Ata National Park</h5>
+      <p class="card-text">Это довольно не далеко 2 часа езды на машине от города Оша.Очень красивое место. Со временем вам объязательно захочется вернутся опять</p>
+      <a href="#" class="btn btn-primary">Настроить маршрут</a>
+    </div>
+  </div>
+</div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
